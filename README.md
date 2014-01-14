@@ -33,12 +33,14 @@ So AATACA and ACATA are valid GLOBEs, while ATCAA and ACAT are not valid GLOBEs.
     a. If the EYE SPOT is on a stalk, the strand continues with the code for one or more LEGs. The number of LEGS determines the length of the stalk.
     b. If the eye spot is not on a stalk, the strand continues with the terminators.
   3. The sequence for an EYE SPOT is terminated with AG.
+
 So TAG and TCGGTCGTAG are valid GLOBES EYE SPOTs, while CGTAG and TAAG are not valid EYE SPOTs.
 
 * The DNA sequence for a LEG has the following structure:
   1. The first base is C.
   2. The initial C is followed by one or more G~s. The number of G~s determines the length of the LEG.
   3. The LEG sequence is terminated by a single T.
+
 So CGGGGGGT and CGT are valid LEGs, while CGGG and CCCGT are not valid LEGs.
 
 For all sequences, there can be no bases in the sequence other than those specified. For example, the sequence CAGATA is not a valid LEG even though it contains CGT, because it has the extra A bases.
@@ -52,14 +54,23 @@ Output:
 The first line of output should read SQUIRMY OUTPUT. Each of the next n lines should consist of the case number followed by either YES or NO depending on whether or not the corresponding input line is a Squirmy. The last line of output should read END OF OUTPUT.
 
 Sample Input:
+
     3
+
     ACATATAGACATACGT
+
     AAAAAATACATAGTAGTCGGGTAG
+
     ATACATCGGGTAGCGT
 
 Sample Output (corresponding to sample input):
+
     SQUIRMY OUTPUT
+
     Case 1: YES
+
     Case 2: NO
+
     Case 3: NO
+
     END OF OUTPUT
