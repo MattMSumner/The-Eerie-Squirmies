@@ -56,21 +56,14 @@ The first line of output should read SQUIRMY OUTPUT. Each of the next n lines sh
 Sample Input:
 
     3
-
     ACATATAGACATACGT
-
     AAAAAATACATAGTAGTCGGGTAG
-
     ATACATCGGGTAGCGT
 
 Sample Output (corresponding to sample input):
 
     SQUIRMY OUTPUT
-
     Case 1: YES
-
     Case 2: NO
-
     Case 3: NO
-
     END OF OUTPUT
